@@ -1,6 +1,6 @@
 import SkillsCards from "./Skills-cards";
-import ProjectsCards from "./projects-cards";
-import TheHeader from "./header";
+import ProjectsCards from "./Projects-cards";
+import TheHeader from "./Header";
 import Footer from "./Footer";
 import ContactCards from "./Contact-cards";
 
