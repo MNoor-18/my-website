@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sections {
+    @apply  flex flex-col items-center gap-2 pt-10 sm:pt-20;
+}
+
+.sections-titles {
+    @apply text-xl text-teal-900 font-bold capitalize mb-16 sm:text-3xl md:font-extrabold dark:text-white;
+}
+
+.primary-color {
+    @apply bg-[#eee] dark:bg-gray-800
+}
+.website-bg {
+    @apply bg-[#f8fafc] dark:bg-gray-800
+}
+
+.cards-bg {
+    @apply bg-white dark:bg-gray-300
+}
+
+.website-bg-shadow {
+    @apply shadow-[#f8fafc] dark:shadow-gray-800
+}
