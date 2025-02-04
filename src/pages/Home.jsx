@@ -13,10 +13,10 @@ const Home = () => {
                     <h2 className="text-xl font-black mb-3 text-teal-800 md:text-2xl lg:text-[px48] dark:text-secondary-color">
                         {currentLanguage.hero.mySpecialty}
                     </h2>
-                    <h3 className="text-lg font-normal  text-nowrap my-3 text-black md:text-2xl lg:text-[px38] dark:text-gray-200">
+                    <h3 className="text-lg font-normal my-3 text-black sm:text-nowrap md:text-2xl lg:text-[px38] dark:text-gray-200">
                         {currentLanguage.hero.myIntro1}
                     </h3>
-                    <h3 className="text-lg font-normal text-nowrap text-black md:text-2xl lg:text-[px38] dark:text-gray-200">
+                    <h3 className="text-lg font-normal text-black sm:text-nowrap md:text-2xl lg:text-[px38] dark:text-gray-200">
                         {currentLanguage.hero.myIntro2}
                     </h3>
                 </div>
