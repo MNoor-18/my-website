@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const ProjectsCards = ({ name = "not yet", image = "./src/assets/images/web-development.jpg", info = "not yet"}) => {
+const ProjectsCards = ({ name = "not yet", image = "/assets/images/web-development.jpg", info = "not yet"}) => {
     return(
         <div className='group h-44 w-40 shadow-lg overflow-hidden rounded-md bg-white sm:h-64 sm:w-60 xl:h-80 xl:w-80'>
             <div className='projects-images h-5/6 w-full relative'>

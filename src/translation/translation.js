@@ -117,37 +117,37 @@ export const translations = {
       {
         projectName: 'no name1',
         projectInfo: 'no Info',
-        projectImage: './src/assets/images/web-development.jpg',
+        projectImage: '/assets/images/web-development.jpg',
       },
   
       {
         projectName: 'no name2',
         projectInfo: 'no Info',
-        projectImage: './src/assets/images/web-development.jpg',
+        projectImage: '/assets/images/web-development.jpg',
       },
   
       {
         projectName: 'no name3',
         projectInfo: 'no Info',
-        projectImage: './src/assets/images/web-development.jpg',
+        projectImage: '/assets/images/web-development.jpg',
       },
   
       {
         projectName: 'no name4',
         projectInfo: 'no Info',
-        projectImage: './src/assets/images/web-development.jpg',
+        projectImage: '/assets/images/web-development.jpg',
       },
   
       {
         projectName: 'no name5',
         projectInfo: 'no Info',
-        projectImage: './src/assets/images/web-development.jpg',
+        projectImage: '/assets/images/web-development.jpg',
       },
   
       {
         projectName: 'no name6',
         projectInfo: 'no Info',
-        projectImage: './src/assets/images/web-development.jpg',
+        projectImage: '/assets/images/web-development.jpg',
       },
     ],
   contact: {
@@ -271,37 +271,37 @@ export const translations = {
         {
           projectName: 'لايوجد اسم للمشروع1',
           projectInfo: 'لايوجد تفاصيل',
-          projectImage: './src/assets/images/web-development.jpg',
+          projectImage: '/assets/images/web-development.jpg',
         },
     
         {
           projectName: 'لايوجد اسم للمشروع2',
           projectInfo: 'لايوجد تفاصيل',
-          projectImage: './src/assets/images/web-development.jpg',
+          projectImage: '/assets/images/web-development.jpg',
         },
     
         {
           projectName: 'لايوجد اسم للمشروع3',
           projectInfo: 'لايوجد تفاصيل',
-          projectImage: './src/assets/images/web-development.jpg',
+          projectImage: '/assets/images/web-development.jpg',
         },
     
         {
           projectName: 'لايوجد اسم للمشروع4',
           projectInfo: 'لايوجد تفاصيل',
-          projectImage: './src/assets/images/web-development.jpg',
+          projectImage: '/assets/images/web-development.jpg',
         },
     
         {
           projectName: 'لايوجد اسم للمشروع5',
           projectInfo: 'لايوجد تفاصيل',
-          projectImage: './src/assets/images/web-development.jpg',
+          projectImage: '/assets/images/web-development.jpg',
         },
     
         {
           projectName: 'لايوجد اسم للمشروع6',
           projectInfo: 'لايوجد تفاصيل',
-          projectImage: './src/assets/images/web-development.jpg',
+          projectImage: '/assets/images/web-development.jpg',
         },
       ],
       contact: {

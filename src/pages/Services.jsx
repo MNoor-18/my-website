@@ -18,7 +18,7 @@ const Services = () => {
                     </div>
                 </div>
                 <div className='hidden w-1/2 h-full justify-center md:flex '>
-                    <img className='h-full' src="src/assets/images/Website Creator-bro.svg" alt="" />
+                    <img className='h-full' src="/assets/images/Website Creator-bro.svg" alt="" />
                 </div>
             </div>
         </section>
