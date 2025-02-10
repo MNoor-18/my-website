@@ -3,7 +3,6 @@ import { About, Contact, Home, Projects, Services } from './pages';
 import { Footer, TheHeader } from './components';
 
 function App() {
-  
   return (
     <div className='overflow-hidden website-bg'>
       <TheHeader/>

@@ -7,7 +7,6 @@ import { translations } from "../translation/translation";
 const TheHeader = () => {
 
     // ############################# HEADER BACKGROUND ######################
-    document.addEventListener("DOMContentLoaded", () => {
         const navbar = document.getElementById("navbar");
         if (navbar){
             window.addEventListener("scroll", () => {
@@ -20,7 +19,6 @@ const TheHeader = () => {
                 }
             });
             };
-        });
 
       // ############################# HANDLE LANGUAGE ######################
   const [currentLanguage, setCurrentLanguage] = useState(
