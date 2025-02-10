@@ -10,7 +10,7 @@ const About = () => {
         <section id='about' className='sections gap-14 px-5 md:px-14'>
             <div className='min-h-screen w-full flex flex-col items-center relative xl:flex-row'>
                 <div className="w-2/3 h-fit relative md:w-2/6 md:overflow-hidden">
-                    <img className='h-full w-full object-cover' src="/assets/images/picture-2.png" alt="My Picture" />
+                    <img className='h-full w-full object-cover' src="assets/images/picture-2.png" alt="My Picture" />
                     <div className="hidden h-2/6 w-full absolute bottom-0 bg-gradient-to-t from-[#f8fafc] md:block dark:from-gray-800" />
                 </div>
                 <div className="w-full h-5/6 md:w-4/6">
