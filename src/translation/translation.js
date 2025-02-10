@@ -116,38 +116,49 @@ export const translations = {
       myProjects: [
       {
         projectName: 'no name1',
-        projectInfo: 'no Info',
+        projectInfo: 'Open project',
         projectImage: '/assets/images/web-development.jpg',
+        projectLink: 'mnoorportfolio.vercel.app'
+
       },
   
       {
         projectName: 'no name2',
-        projectInfo: 'no Info',
+        projectInfo: 'Open project',
         projectImage: '/assets/images/web-development.jpg',
+        projectLink: 'mnoorportfolio.vercel.app'
+
       },
   
       {
         projectName: 'no name3',
-        projectInfo: 'no Info',
+        projectInfo: 'Open project',
         projectImage: '/assets/images/web-development.jpg',
+        projectLink: 'mnoorportfolio.vercel.app'
+
       },
   
       {
         projectName: 'no name4',
-        projectInfo: 'no Info',
+        projectInfo: 'Open project',
         projectImage: '/assets/images/web-development.jpg',
+        projectLink: 'mnoorportfolio.vercel.app'
+
       },
   
       {
         projectName: 'no name5',
-        projectInfo: 'no Info',
+        projectInfo: 'Open project',
         projectImage: '/assets/images/web-development.jpg',
+        projectLink: 'mnoorportfolio.vercel.app'
+
       },
   
       {
         projectName: 'no name6',
-        projectInfo: 'no Info',
+        projectInfo: 'Open project',
         projectImage: '/assets/images/web-development.jpg',
+        projectLink: 'mnoorportfolio.vercel.app'
       },
     ],
   contact: {
@@ -270,38 +281,50 @@ export const translations = {
       myProjects: [
         {
           projectName: 'لايوجد اسم للمشروع1',
-          projectInfo: 'لايوجد تفاصيل',
+          projectInfo: 'انتقل إلى المشروع',
           projectImage: '/assets/images/web-development.jpg',
+          projectLink: 'mnoorportfolio.vercel.app'
+
         },
     
         {
           projectName: 'لايوجد اسم للمشروع2',
-          projectInfo: 'لايوجد تفاصيل',
+          projectInfo: 'انتقل إلى المشروع',
           projectImage: '/assets/images/web-development.jpg',
+          projectLink: 'mnoorportfolio.vercel.app'
+
         },
     
         {
           projectName: 'لايوجد اسم للمشروع3',
-          projectInfo: 'لايوجد تفاصيل',
+          projectInfo: 'انتقل إلى المشروع',
           projectImage: '/assets/images/web-development.jpg',
+          projectLink: 'mnoorportfolio.vercel.app'
+
         },
     
         {
           projectName: 'لايوجد اسم للمشروع4',
-          projectInfo: 'لايوجد تفاصيل',
+          projectInfo: 'انتقل إلى المشروع',
           projectImage: '/assets/images/web-development.jpg',
+          projectLink: 'mnoorportfolio.vercel.app'
+
         },
     
         {
           projectName: 'لايوجد اسم للمشروع5',
-          projectInfo: 'لايوجد تفاصيل',
+          projectInfo: 'انتقل إلى المشروع',
           projectImage: '/assets/images/web-development.jpg',
+          projectLink: 'mnoorportfolio.vercel.app'
+
         },
     
         {
           projectName: 'لايوجد اسم للمشروع6',
-          projectInfo: 'لايوجد تفاصيل',
+          projectInfo: 'انتقل إلى المشروع',
           projectImage: '/assets/images/web-development.jpg',
+          projectLink: 'mnoorportfolio.vercel.app'
+
         },
       ],
       contact: {
