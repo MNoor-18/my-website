@@ -51,7 +51,7 @@ useEffect(() => {
     //############################# COMPONENT #################################
 
     return (
-        <header id="navbar" className="navbar w-screen h-10 px-5 fixed transparent z-50 top-0 sm:h-16 sm:px-14" >
+        <header id="navbar" className="w-screen h-10 px-5 fixed transparent z-50 top-0 sm:h-16 sm:px-14" >
             <div  dir="ltr" className="h-full w-full flex items-center justify-between">
                 <div className="logo-side w-fit">
                     <a href="#home">
