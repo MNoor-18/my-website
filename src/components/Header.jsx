@@ -6,6 +6,24 @@ import { translations } from "../translation/translation";
 
 const TheHeader = () => {
 
+    // ############################# HEADER BACKGROUND ######################
+    useEffect(() => {
+        const navbar = document.getElementById("navbar");
+        if (!navbar) return;
+    
+        const handleScroll = () => {
+            if (window.scrollY > 80) {
+                navbar.classList.add("scrolled");
+                navbar.classList.remove("transparent");
+            } else {
+                navbar.classList.add("transparent");
+                navbar.classList.remove("scrolled");
+            }
+        };
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
       // ############################# HANDLE LANGUAGE ######################
   const [currentLanguage, setCurrentLanguage] = useState(
     localStorage.getItem("currentLanguage") || "ar"
