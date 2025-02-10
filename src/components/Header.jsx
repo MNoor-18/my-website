@@ -6,6 +6,22 @@ import { translations } from "../translation/translation";
 
 const TheHeader = () => {
 
+    // ############################# HEADER BACKGROUND ######################
+    document.addEventListener("DOMContentLoaded", () => {
+        const navbar = document.getElementById("navbar");
+        if (navbar){
+            window.addEventListener("scroll", () => {
+                if (window.scrollY > 100) {
+                    navbar.classList.remove("transparent");
+                    navbar.classList.add("scrolled");
+                } else {
+                    navbar.classList.remove("scrolled");
+                    navbar.classList.add("transparent");
+                }
+            });
+            };
+        });
+
       // ############################# HANDLE LANGUAGE ######################
   const [currentLanguage, setCurrentLanguage] = useState(
     localStorage.getItem("currentLanguage") || "ar"
@@ -51,7 +67,7 @@ useEffect(() => {
     //############################# COMPONENT #################################
 
     return (
-        <header id="navbar" className="navbar w-screen h-10 px-5 fixed trasparent z-50 top-0 sm:h-16 sm:px-14" >
+        <header id="navbar" className="navbar w-screen h-10 px-5 fixed transparent z-50 top-0 sm:h-16 sm:px-14" >
             <div  dir="ltr" className="h-full w-full flex items-center justify-between">
                 <div className="logo-side w-fit">
                     <a href="#home">

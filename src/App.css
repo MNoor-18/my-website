@@ -34,10 +34,6 @@ html {
     box-shadow: 2px 0 10px 1px black;
 }
 
-.nav-btns .active {
-    color: black;
-}
-
 #home::after {
     content: '';
     width: 200%;
