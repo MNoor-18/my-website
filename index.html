@@ -8,7 +8,8 @@
     // ############################# HEADER BACKGROUND ######################
       document.addEventListener("DOMContentLoaded", () => {
         const navbar = document.getElementById("navbar");
-        if (!navbar) return; // تجنب الأخطاء في حال عدم وجود العنصر
+        if (!navbar) console.log("it's not found");
+        return;
 
         window.addEventListener("scroll", () => {
           if (window.scrollY > 80) {
