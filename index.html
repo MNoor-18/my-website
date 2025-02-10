@@ -4,6 +4,21 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+          // ############################# HEADER BACKGROUND ######################
+          const navbar = document.getElementById("navbar");
+        if (navbar){
+            window.addEventListener("scroll", () => {
+                if (window.scrollY > 80) {
+                    navbar.classList.remove("transparent");
+                    navbar.classList.add("scrolled");
+                } else {
+                    navbar.classList.remove("scrolled");
+                    navbar.classList.add("transparent");
+                }
+            });
+            };
+    </script>
     <title>Mohammed Noor</title>
   </head>
   <body>

@@ -6,20 +6,6 @@ import { translations } from "../translation/translation";
 
 const TheHeader = () => {
 
-    // ############################# HEADER BACKGROUND ######################
-        const navbar = document.getElementById("navbar");
-        if (navbar){
-            window.addEventListener("scroll", () => {
-                if (window.scrollY > 100) {
-                    navbar.classList.remove("transparent");
-                    navbar.classList.add("scrolled");
-                } else {
-                    navbar.classList.remove("scrolled");
-                    navbar.classList.add("transparent");
-                }
-            });
-            };
-
       // ############################# HANDLE LANGUAGE ######################
   const [currentLanguage, setCurrentLanguage] = useState(
     localStorage.getItem("currentLanguage") || "ar"
